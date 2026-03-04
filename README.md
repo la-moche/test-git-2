@@ -13,3 +13,8 @@ git push origin
 git branch // name of branch
 
 git push origin master
+
+-----
+git reset  // deleting frome stage
+git diff // changing before staging
+git reset --hard // delete all changing
