@@ -1,5 +1,7 @@
-console.log('Hello Word');
+/** @format */
 
-console.error('error');
+console.log("Hello Word");
 
-console.log('Hello');
+console.error("error");
+
+console.log("Hello");
