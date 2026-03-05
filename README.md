@@ -13,12 +13,15 @@ git remote -v // check link to repository ~ nothing
 git remote origin [rep url]
 git remote -v // привязали: появилась ссылка
 
------------------
+---
+
 git config
 git config user.name
 git config user.email
 git config user.email "changed@email.com"
--------------------
+
+---
+
 // Отправка изменений из локальной папки на GitHub-репозиторий
 git status
 git add [files] - добавляет файлы в stage
@@ -34,7 +37,15 @@ git branch // name of branch
 
 git push origin master
 
------
-git reset  // deleting frome stage
+---
+
+git reset // deleting frome stage
 git diff // changing before staging
 git reset --hard // delete all changing
+
+---
+
+.gitignore
+  build
+  node_module
+  .env
