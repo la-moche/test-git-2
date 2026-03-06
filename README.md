@@ -45,7 +45,21 @@ git reset --hard // delete all changing
 
 ---
 
-.gitignore
-  build
-  node_module
-  .env
+// 4. Основы ветвления и слияния
+
+git branch // check branches
+
+master
+develop
+feature/main-page
+feature/about-company
+
+git branch [name of branch]
+git checkout [name of branch] // switch branch
+
+$ git remote -v
+origin  https://github.com/la-moche/test-git-2.git (fetch)
+origin  https://github.com/la-moche/test-git-2.git (push)
+
+git push [link to rep] [branch name] 
+git push origin develop 
