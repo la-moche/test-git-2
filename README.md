@@ -63,3 +63,11 @@ origin  https://github.com/la-moche/test-git-2.git (push)
 
 git push [link to rep] [branch name] 
 git push origin develop 
+-----
+4.2. pull request
+
+pull request и merge после исправлений согласно комментариям других пользователей на гитхаб
+потом удаляем ветку из которой сделали слияние на гитхаб
+
+локально переключаемся в мастер и
+git pull origin master
