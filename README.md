@@ -77,3 +77,7 @@ git pull origin master
 git branch -d [branch name] // remove branch
 
 git checkout feacher/main-page
+
+git checkout master
+git merge feature/main-page
+git branch -d feature/main-page
